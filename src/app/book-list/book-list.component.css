@@ -1,0 +1,28 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.book-list img {
+    object-fit: cover;
+    height: 280px;
+}
+
+.book-list mat-card {
+    width: 170px;
+    margin: 20px;
+}
+
+mat-card-actions button {
+    width: 100%;
+}
+
+mat-card-title {
+    font-size: 16px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
